@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Titan-Watches-Icon-Vector-01.jpg">
+    <script src="script.js"></script>
+</head>
+<body class="main">
+    <header class="navbar">
+        <nav>
+            <a class="backpage" href="index.html">Back to Titan</a>
+        </nav>
+    </header>
+
+    <h1 class="heading">My Profile</h1>
+    <main>
+        <section class="profile-container">
+            <div class="profile-info">
+                <h2>Personal Information</h2>
+                <form action="#" method="POST">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Kanishkar B" required>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Kanishkarbalaji03@gmail.com" required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+91 9944318288" required>
+
+                    <label for="address">Shipping Address:</label>
+                    <textarea id="address" name="address" placeholder="244/62,G.K.V Nagar,Chinnagollapatty,Yercaud,Mainroad,Salem-636008" required></textarea>
+
+                    <button type="submit">Save Changes</button>
+                </form>
+            </div>
+
+            <div class="order-history">
+                <h2>Order History</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Order ID</th>
+                            <th>Date</th>
+                            <th>Status</th>
+                            <th>Total</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>#1234</td>
+                            <td>2024-08-01</td>
+                            <td>Shipped</td>
+                            <td>800000</td>
+                            <td>View</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>

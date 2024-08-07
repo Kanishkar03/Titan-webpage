@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Titan-Watches-Icon-Vector-01.jpg">
+</head>
+<body class="main">
+    <header class="navbar">
+        <nav>
+            <a class="backpage" href="index.html">Back to Titan</a>
+        </nav>
+    </header>
+
+    <div class="login-container">
+        <h1 class="heading">Login</h1>
+        <form action="#" method="POST" class="login-form">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+            <button type="submit" class="login-button">Login</button>
+
+            <div class="login-footer">
+                <p>Don't have an account? 
+                    <a>Sign up</a></p>
+                <p><a>Forgot your password?</a></p>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
